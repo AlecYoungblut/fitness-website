@@ -3,8 +3,8 @@ import React from "react";
 class Testimonials extends React.Component {
     render() {
         return (
-            <section className="bg-purple-100" id="Lorem_Testimonials">
-                <div className="container mx-auto px-6 py-20">
+            <section className="bg-gray-400 mx-auto w-4/5 rounded-xl" id="Lorem_Testimonials">
+                <div className="container mx-auto px-6 py-20 my-16">
                     <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
                         Lorem
                     </h2>

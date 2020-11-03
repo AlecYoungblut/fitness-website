@@ -6,9 +6,15 @@ module.exports = {
   purge: [],
   theme: {
     extend: {
+      backgroundImage: theme => ({
+        'hero-pattern': "url('kettlebell-lady.jpg')"
+      }),
       colors: {
+        theme: {
+          header: '#1f1e24'
+        },
         best: {
-          purple: '551A8B'
+          purple: '#551A8B'
         }
       },
     },

@@ -9,14 +9,29 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <Nav></Nav>
-      <HeroSection></HeroSection>
-      <Features></Features>
-      <Testimonials></Testimonials>
-      <CallToAction></CallToAction>
-      <Footer></Footer>
-    </div>
+    <div className="App ">
+      <div className="block lg:hidden">
+        <div className="bg-gray-400">
+          <Nav></Nav>
+          <HeroSection></HeroSection>
+          <Features></Features>
+          <Testimonials></Testimonials>
+          <CallToAction></CallToAction>
+          <Footer></Footer>
+        </div>
+      </div>
+
+      <div className="hidden lg:block">
+        <div className="bg-hero-pattern bg-fixed bg-no-repeat bg-cover ">
+          <Nav></Nav>
+          <HeroSection></HeroSection>
+          <Features></Features>
+          <Testimonials></Testimonials>
+          <CallToAction></CallToAction>
+          <Footer></Footer>
+        </div>
+      </div>
+    </div >
   );
 }
 
