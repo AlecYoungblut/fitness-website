@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Nav from './components/Nav';
 import HeroSection from './components/HeroSection';
@@ -11,7 +10,7 @@ function App() {
   return (
     <div className="App ">
       <div className="block lg:hidden">
-        <div className="bg-gray-400">
+        <div className="bg-gray-200">
           <Nav></Nav>
           <HeroSection></HeroSection>
           <Features></Features>
