@@ -7,8 +7,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: theme => ({
-        'hero-pattern': "url('kettlebell-lady.jpg')"
+        'hero-pattern': "url('gymphoto.jpg')"
       }),
+      // backgroundImage: theme => ({
+      //   'hero-pattern': "url('kettlebell-lady.jpg')"
+      // }),
       colors: {
         theme: {
           header: '#1f1e24'

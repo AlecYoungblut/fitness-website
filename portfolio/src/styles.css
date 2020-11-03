@@ -3570,7 +3570,7 @@ video {
 }
 
 .bg-hero-pattern {
-  background-image: url('kettlebell-lady.jpg');
+  background-image: url('gymphoto.jpg');
 }
 
 .from-transparent {
@@ -19432,6 +19432,15 @@ video {
   animation: bounce 1s infinite;
 }
 
+.test{
+  background-attachment: fixed;
+}
+
+.test:hover{
+  /* @apply ur-nan; */
+  width:100%;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -22426,7 +22435,7 @@ video {
   }
 
   .sm\:bg-hero-pattern {
-    background-image: url('kettlebell-lady.jpg');
+    background-image: url('gymphoto.jpg');
   }
 
   .sm\:from-transparent {
@@ -41252,7 +41261,7 @@ video {
   }
 
   .md\:bg-hero-pattern {
-    background-image: url('kettlebell-lady.jpg');
+    background-image: url('gymphoto.jpg');
   }
 
   .md\:from-transparent {
@@ -60078,7 +60087,7 @@ video {
   }
 
   .lg\:bg-hero-pattern {
-    background-image: url('kettlebell-lady.jpg');
+    background-image: url('gymphoto.jpg');
   }
 
   .lg\:from-transparent {
@@ -78904,7 +78913,7 @@ video {
   }
 
   .xl\:bg-hero-pattern {
-    background-image: url('kettlebell-lady.jpg');
+    background-image: url('gymphoto.jpg');
   }
 
   .xl\:from-transparent {
