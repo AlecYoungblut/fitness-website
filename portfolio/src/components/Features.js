@@ -1,39 +1,71 @@
 import React from "react";
+import training1 from './imgs/training1.jpg';
+import training2 from './imgs/training2.jpg';
+import training3 from './imgs/training3.jpg';
+import training4 from './imgs/training4.jpg';
 
 class Features extends React.Component {
     render() {
         return (
-            <section className="bg-gray-400 mx-auto w-4/5 rounded-xl">
-                <section className="container mx-auto px-6 p-10 my-10" >
-                    <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
-                        Lorem
+            <section className="bg-gray-400 mx-auto w-4/5 rounded-xl mb-24">
+                <section className="container mx-auto px-6 p-5 my-10" >
+                    <h2 className="text-5xl font-bold text-center text-gray-800 mb-8">
+                        Services
                     </h2>
-                    <div className="flex items-center flex-wrap mb-20">
+                    <div className="flex items-center flex-wrap mb-10">
                         <div className="w-full md:w-1/2">
-                            <h4 className="text-3xl text-gray-800 font-bold mb-3 pr-10">Lorem ipsum</h4>
-                            <p className="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <h4 className="text-3xl text-gray-800 font-bold mb-3 pr-10">Personal Training </h4>
+                            <p className="text-gray-600 mb-8 mr-4">
+                                Enjoy the individualization of 1-1 coaching suited exactly to your needs, goals and timelines. It allows to you book exactly to your schedule, no matter how specific. Our coaches will take you through workouts tailored specifically for you, while throughly explaining how and why. Our goal is to improve your confidence with fitness by teaching you!
+                                Personal training is offered through a variety of different types of sessions: 1 on 1 Full and Half hours and Partner Training!
+                            </p>
                         </div>
                         <div className="w-full md:w-1/2">
-                            <img className="rounded-lg" src="https://www.fitfatherproject.com/wp-content/uploads/2017/02/shutterstock_699574486-min-752x502.jpg" alt="Lorem" />
+                            <img className="rounded-lg" src={training1} alt="Lorem" />
                         </div>
                     </div>
                     <div className="flex items-center flex-wrap mb-10">
                         <div className="w-full md:w-1/2">
-                            <img className="rounded-lg" src="https://images.askmen.com/1080x540/2019/07/14-084819-best_butt_workouts_glute_exercises_for_men.jpg" alt="Lorem" />
+                            <img className="rounded-lg" src={training2} alt="Lorem" />
                         </div>
                         <div className="w-full md:w-1/2 pl-0 md:pl-10 ">
-                            <h4 className="text-3xl text-gray-800 font-bold mb-3">Lorem ipsum</h4>
-                            <p className="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <h4 className="text-3xl text-gray-800 font-bold mb-3">Group Training</h4>
+                            <p className="text-gray-600 mb-8">
+                            Group training is ideal for the client who isn’t a complete beginner, and wants to get a great workout in for a lesser cost. Group training allows you to join similar goal/fitness level type clients in a fun, energetic atmosphere. Classes are at set times throughout the week, and is drop in style!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="flex items-center flex-wrap mb-10">
+                        <div className="w-full md:w-1/2">
+                            <h4 className="text-3xl text-gray-800 font-bold mb-3">Nutrition Coaching</h4>
+                            <p className="text-gray-600 mb-8">
+                                We understand that eating to fuel your body properly can be difficult and confusing.
+                                Our coaches can help you plan for success with a realistic, manageable and enjoyable meal plan that YOU can stick to without feeling deprived! 
+                                A Nutrition Coaching Session includes a 1-hour consultation as well as a follow up meal plan based on your goals, likes, and dislikes. 
+                            </p>
+                        </div>
+                        <div className="w-full md:w-1/2">
+                            <img className="rounded-lg w-5/4" src={training3} alt="Lorem" />
                         </div>
                     </div>
 
                     <div className="flex items-center flex-wrap">
                         <div className="w-full md:w-1/2">
-                            <h4 className="text-3xl text-gray-800 font-bold mb-3">Lorem ipsum</h4>
-                            <p className="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <img className="rounded-lg" src={training4} alt="Lorem" />
                         </div>
-                        <div className="w-full md:w-1/2">
-                            <img className="rounded-lg w-5/4" src="https://i.insider.com/5ea2fc4638bf236ba12ee9b6?width=600&format=jpeg&auto=webp" alt="Lorem" />
+                        <div className="w-full md:w-1/2 pl-0 md:pl-10 ">
+                            <h4 className="text-3xl text-gray-800 font-bold mb-3">Fascial Stretch Therapy</h4>
+                            <p className="text-gray-600 mb-8">
+                                Fascial Stretch Therapy [FST] is a pain-free, table based assisted stretching, focusing on the fascia and joint capsules as the key element to achieving optimal flexibility and pain relief. Members of all ages can benefit from FST, and will see and feel improvement as early as the first treatment!
+                                The benefits of FST include:
+                                Reduce Pain
+                                Reduce Stiffness
+                                Reduce Stress
+                                Improved Range of Motion
+                                Improved Posture
+                                Improved Sleep
+                            </p>
                         </div>
                     </div>
                 </section >

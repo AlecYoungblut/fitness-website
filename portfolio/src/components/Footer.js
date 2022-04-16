@@ -21,7 +21,7 @@ class Footer extends React.Component {
                 <div className="container mx-auto px-6 pt-10 pb-6 mt-16">
                     <div className="flex mb-4">
                         <div className="w-1/2  text-white">
-                            <p>© Copyright 2020. All Rights Reserved.</p>
+                            <p>© Copyright 2022. All Rights Reserved.</p>
                         </div>
                         <div className="w-1/2 text-right text-white">
                             <a className="hover:font-bold" href="/">

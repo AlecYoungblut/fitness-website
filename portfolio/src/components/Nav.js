@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faChevronCircleDown } from '@fortawesome/free-solid-svg-icons';
-
+import visfitlogo from './imgs/visfitlogo.jpeg';
 
 library.add(
     faChevronCircleDown,
@@ -17,11 +17,13 @@ class Nav extends React.Component {
     }
     render() {
         return (
-            <section className="bg-gray-900 rounded-xl mx-auto w-4/5">
-                <div className="lg:pl-6 pl-20 pr-6 py-4 flex items-center justify-between">
-                    <a className="font-bold text-2xl lg:text-4xl text-white" href="#">
-                        Yeomans Yeeting
-                    </a>
+            <section className="rounded-xl mx-auto w-4/5 mb-24 h-40">
+                <div className="lg:pl-6 pl-20 pr-6 pt-4 flex items-center justify-between">
+                    
+                    <div className="">
+                        <img className="rounded-full h-48 w-48" src={visfitlogo} alt="VISFIT Personal Training" />
+                    </div>
+                    
                     <div className="block lg:hidden" onMouseLeave={() => this.setState({ navClosed: true })}>
                         <div className="relative inline-block text-left">
                             <div>
@@ -44,10 +46,10 @@ class Nav extends React.Component {
                         </div>
                     </div>
                     <div className="hidden lg:block">
-                        <ul className="inline-flex">
-                            <li><a className="px-4 hover:font-bold text-white" href="#">Home</a></li>
-                            <li><a className="px-4 hover:font-bold text-white" href="#Lorem_Testimonials">Lorem</a></li>
-                            <li><a className="px-4 hover:font-bold text-white" href="#Lorem_Contact">Lorem</a></li>
+                        <ul className="rounded-xl text-2xl inline-flex bg-teal-400 p-4">
+                            <li><a className="px-4 hover:font-bold text-white m" href="#">Home</a></li>
+                            <li><a className="px-4 hover:font-bold text-white" href="#Lorem_Testimonials">Services</a></li>
+                            <li><a className="px-4 hover:font-bold text-white" href="#Lorem_Testimonials">Testimonials</a></li>
                         </ul>
                     </div>
                 </div>

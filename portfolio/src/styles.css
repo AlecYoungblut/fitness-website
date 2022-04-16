@@ -3570,7 +3570,7 @@ video {
 }
 
 .bg-hero-pattern {
-  background-image: url('gymphoto.jpg');
+  background-image: url('components/imgs/gymphoto.jpg');
 }
 
 .from-transparent {
@@ -22435,7 +22435,7 @@ video {
   }
 
   .sm\:bg-hero-pattern {
-    background-image: url('gymphoto.jpg');
+    background-image: url('components/imgs/gymphoto.jpg');
   }
 
   .sm\:from-transparent {
@@ -41261,7 +41261,7 @@ video {
   }
 
   .md\:bg-hero-pattern {
-    background-image: url('gymphoto.jpg');
+    background-image: url('components/imgs/gymphoto.jpg');
   }
 
   .md\:from-transparent {
@@ -60087,7 +60087,7 @@ video {
   }
 
   .lg\:bg-hero-pattern {
-    background-image: url('gymphoto.jpg');
+    background-image: url('components/imgs/gymphoto.jpg');
   }
 
   .lg\:from-transparent {
@@ -78913,7 +78913,7 @@ video {
   }
 
   .xl\:bg-hero-pattern {
-    background-image: url('gymphoto.jpg');
+    background-image: url('components/imgs/gymphoto.jpg');
   }
 
   .xl\:from-transparent {

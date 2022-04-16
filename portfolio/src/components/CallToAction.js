@@ -3,6 +3,8 @@ import emailjs from 'emailjs-com';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faMapMarker, faPhone, faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons';
+import duopose from './imgs/duopose.jpg';
+
 
 library.add(
     faMapMarker,
@@ -46,42 +48,37 @@ class CallToAction extends React.Component {
     }
     render() {
         return (
-            <section className="bg-gray-300 mx-auto w-4/5 rounded-xl lg:pb-10" id="Lorem_Contact">
+            <section className="bg-gray-300 mx-auto w-4/5 rounded-xl lg:pb-10 pt-10 mb-24" id="Lorem_Contact">
+                {
+                /* 
                 <div className="container mx-auto px-6 text-center py-16">
-                    <h2 className="mb-6 text-4xl font-bold text-center">
-                        Lorem Ipsum!
-                    </h2>
-                    <h3 className="my-4 text-2xl">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </h3>
-                    <button className="bg-white font-bold rounded-full mt-6 py-4 px-8 shadow-lg uppercase tracking-wider">
-                        Ipsum
-                    </button>
+                    
                 </div>
+                */
+                }
                 <div className="lg:bg-gray-400 mx-auto w-full lg:w-3/4 rounded-xl block lg:hidden">
                     {/* left side */}
                     <div className="m-auto mx-5 py-5 my-5 px-10 rounded-lg block lg:hidden">
                         <h1 className="pt-2 pl-2 text-4xl font-medium">Contact Us</h1>
                         <div className="p-2 pt-4 ml-4 flex flex-row items-center">
                             <FontAwesomeIcon icon={['fa', 'map-marker']} size="2x" className="mt-2 ml-1" />
-                            <div className="text-lg">
-                                <p className="pl-12">
-                                    Address Line 1 Here
-                                </p>
-                                <p className="pl-12">
-                                    Address Line 2 Here
-                                </p>
-                            </div>
+                                <div className="text-lg">
+                                    <p className="pl-12">
+                                        1830 Wharncliffe Rd S Unit 4
+                                    </p>
+                                    <p className="pl-12">
+                                        London, ON N6L 1K1
+                                    </p>
+                                </div>
                         </div>
                         <div className="p-2 pt-4 ml-4 flex flex-row items-center">
                             <FontAwesomeIcon icon={['fa', 'phone']} size="2x" className="mt-2 mr-1" />
                             <div className="text-lg">
                                 <p className="pl-10">
-                                    (123) 456-7890
+                                    (519) 318-9319
                                 </p>
                                 <p className="pl-10">
-                                    (098) 765-4321
+                                    
                                 </p>
                             </div>
                         </div>
@@ -89,7 +86,7 @@ class CallToAction extends React.Component {
                             <FontAwesomeIcon icon={['fa', 'envelope-square']} size="2x" className="mr-2" />
                             <div className="text-lg">
                                 <p className="pl-10">
-                                    fake@email.scam
+                                    visift@visfit.visfit
                                 </p>
 
                             </div>
@@ -118,25 +115,29 @@ class CallToAction extends React.Component {
                     {/* left side */}
                     <div className="w-1/2 rounded-lg">
                         <h1 className="pt-2 pl-2 text-4xl pb-4 font-medium">Contact Us</h1>
-                        <div className="p-2 pt-4 ml-4 flex flex-row items-center">
+                        <div className="p-2 pt-4 ml-4 flex flex-row items-center text-lg hover:font-bold">                            
                             <FontAwesomeIcon icon={['fa', 'map-marker']} size="2x" className="mt-2 ml-1" />
-                            <div className="text-lg">
+                            <div className="" title="Google Maps directions">     
                                 <p className="pl-12">
-                                    Address Line 1 Here
+                                    <a href="https://www.google.com/maps/place/VISFIT+Personal+Training+Ltd./@42.9214517,-81.2790753,15z/data=!4m2!3m1!1s0x0:0x71809e22faccc85a?sa=X&ved=2ahUKEwjg48y69Jj3AhUTLX0KHXGKDlMQ_BJ6BAhhEAU">
+                                        1830 Wharncliffe Rd S Unit 4
+                                    </a>
                                 </p>
                                 <p className="pl-12">
-                                    Address Line 2 Here
+                                    <a href="https://www.google.com/maps/place/VISFIT+Personal+Training+Ltd./@42.9214517,-81.2790753,15z/data=!4m2!3m1!1s0x0:0x71809e22faccc85a?sa=X&ved=2ahUKEwjg48y69Jj3AhUTLX0KHXGKDlMQ_BJ6BAhhEAU">
+                                        London, ON N6L 1K1
+                                    </a>                                    
                                 </p>
-                            </div>
+                            </div>                            
                         </div>
                         <div className="p-2 pt-4 ml-4 flex flex-row items-center">
                             <FontAwesomeIcon icon={['fa', 'phone']} size="2x" className="mt-2 mr-1" />
                             <div className="text-lg">
                                 <p className="pl-10">
-                                    (123) 456-7890
+                                    (519) 318-9319
                                 </p>
                                 <p className="pl-10">
-                                    (098) 765-4321
+                                
                                 </p>
                             </div>
                         </div>
@@ -144,7 +145,7 @@ class CallToAction extends React.Component {
                             <FontAwesomeIcon icon={['fa', 'envelope-square']} size="2x" className="mr-2" />
                             <div className="text-lg">
                                 <p className="pl-10">
-                                    fake@email.scam
+                                    visift@visfit.visfit
                                 </p>
                             </div>
                         </div>
