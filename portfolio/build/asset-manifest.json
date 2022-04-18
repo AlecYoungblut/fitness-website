@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4a7265e2.chunk.css",
+    "main.js": "/static/js/main.d4450084.chunk.js",
+    "main.js.map": "/static/js/main.d4450084.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0a655310.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0a655310.js.map",
+    "static/js/2.b56f6316.chunk.js": "/static/js/2.b56f6316.chunk.js",
+    "static/js/2.b56f6316.chunk.js.map": "/static/js/2.b56f6316.chunk.js.map",
+    "static/js/3.71742a09.chunk.js": "/static/js/3.71742a09.chunk.js",
+    "static/js/3.71742a09.chunk.js.map": "/static/js/3.71742a09.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.4a7265e2.chunk.css.map": "/static/css/main.4a7265e2.chunk.css.map",
+    "static/js/2.b56f6316.chunk.js.LICENSE.txt": "/static/js/2.b56f6316.chunk.js.LICENSE.txt",
+    "static/media/duopose.1a0220c4.jpg": "/static/media/duopose.1a0220c4.jpg",
+    "static/media/styles.css": "/static/media/gymphoto.a197a590.jpg",
+    "static/media/training1.d3774a10.jpg": "/static/media/training1.d3774a10.jpg",
+    "static/media/training2.c61262de.jpg": "/static/media/training2.c61262de.jpg",
+    "static/media/training3.5907d69d.jpg": "/static/media/training3.5907d69d.jpg",
+    "static/media/training4.dfff39e3.jpg": "/static/media/training4.dfff39e3.jpg",
+    "static/media/visfitlogo.e926c225.jpeg": "/static/media/visfitlogo.e926c225.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a655310.js",
+    "static/js/2.b56f6316.chunk.js",
+    "static/css/main.4a7265e2.chunk.css",
+    "static/js/main.d4450084.chunk.js"
+  ]
+}
