@@ -35,26 +35,47 @@ class CallToAction extends React.Component {
     }
 
     handleSubmit(event) {
-        emailjs.send('default_service', 'template_anqy5gq', {
+        event.preventDefault();
+
+        const serviceID = 'service_pmoeifb';
+        const templateID = 'template_anqy5gq';
+        const publicKey = 'user_c0wgstTGpI0ijaURsxQJf'
+        var templateParams = {
             name: `${this.state.name}`,
             phoneno: `${this.state.phoneno}`,
-            email: `${this.state.email}`,
-        }, 'user_c0wgstTGpI0ijaURsxQJf')
-            .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
-            }, function (error) {
-                console.log('FAILED...', error);
-            });
+            email: `${this.state.email}`
+        };
+
+        alert('sending mail!');
+
+        emailjs.send(serviceID, templateID, templateParams, publicKey).then(() => {
+            alert('Sent!');
+        }, (err) => {
+            alert(JSON.stringify(err));
+        });
+
+
+
+        // emailjs.send('service_pmoeifb', 'template_anqy5gq', {
+        //     name: `${this.state.name}`,
+        //     phoneno: `${this.state.phoneno}`,
+        //     email: `${this.state.email}`,
+        // }, 'user_c0wgstTGpI0ijaURsxQJf')
+        //     .then(function (response) {
+        //         console.log('SUCCESS!', response.status, response.text);
+        //     }, function (error) {
+        //         console.log('FAILED...', error);
+        //     });
     }
     render() {
         return (
             <section className="bg-gray-300 mx-auto w-4/5 rounded-xl lg:pb-10 pt-10 mb-24" id="Lorem_Contact">
                 {
-                /* 
-                <div className="container mx-auto px-6 text-center py-16">
-                    
-                </div>
-                */
+                    /* 
+                    <div className="container mx-auto px-6 text-center py-16">
+                        
+                    </div>
+                    */
                 }
                 <div className="lg:bg-gray-400 mx-auto w-full lg:w-3/4 rounded-xl block lg:hidden">
                     {/* left side */}
@@ -62,14 +83,14 @@ class CallToAction extends React.Component {
                         <h1 className="pt-2 pl-2 text-4xl font-medium">Contact Us</h1>
                         <div className="p-2 pt-4 ml-4 flex flex-row items-center">
                             <FontAwesomeIcon icon={['fa', 'map-marker']} size="2x" className="mt-2 ml-1" />
-                                <div className="text-lg">
-                                    <p className="pl-12">
-                                        1830 Wharncliffe Rd S Unit 4
-                                    </p>
-                                    <p className="pl-12">
-                                        London, ON N6L 1K1
-                                    </p>
-                                </div>
+                            <div className="text-lg">
+                                <p className="pl-12">
+                                    1830 Wharncliffe Rd S Unit 4
+                                </p>
+                                <p className="pl-12">
+                                    London, ON N6L 1K1
+                                </p>
+                            </div>
                         </div>
                         <div className="p-2 pt-4 ml-4 flex flex-row items-center">
                             <FontAwesomeIcon icon={['fa', 'phone']} size="2x" className="mt-2 mr-1" />
@@ -78,7 +99,7 @@ class CallToAction extends React.Component {
                                     (519) 318-9319
                                 </p>
                                 <p className="pl-10">
-                                    
+
                                 </p>
                             </div>
                         </div>
@@ -115,9 +136,9 @@ class CallToAction extends React.Component {
                     {/* left side */}
                     <div className="w-1/2 rounded-lg">
                         <h1 className="pt-2 pl-2 text-4xl pb-4 font-medium">Contact Us</h1>
-                        <div className="p-2 pt-4 ml-4 flex flex-row items-center text-lg hover:font-bold">                            
+                        <div className="p-2 pt-4 ml-4 flex flex-row items-center text-lg hover:font-bold">
                             <FontAwesomeIcon icon={['fa', 'map-marker']} size="2x" className="mt-2 ml-1" />
-                            <div className="" title="Google Maps directions">     
+                            <div className="" title="Google Maps directions">
                                 <p className="pl-12">
                                     <a href="https://www.google.com/maps/place/VISFIT+Personal+Training+Ltd./@42.9214517,-81.2790753,15z/data=!4m2!3m1!1s0x0:0x71809e22faccc85a?sa=X&ved=2ahUKEwjg48y69Jj3AhUTLX0KHXGKDlMQ_BJ6BAhhEAU">
                                         1830 Wharncliffe Rd S Unit 4
@@ -126,9 +147,9 @@ class CallToAction extends React.Component {
                                 <p className="pl-12">
                                     <a href="https://www.google.com/maps/place/VISFIT+Personal+Training+Ltd./@42.9214517,-81.2790753,15z/data=!4m2!3m1!1s0x0:0x71809e22faccc85a?sa=X&ved=2ahUKEwjg48y69Jj3AhUTLX0KHXGKDlMQ_BJ6BAhhEAU">
                                         London, ON N6L 1K1
-                                    </a>                                    
+                                    </a>
                                 </p>
-                            </div>                            
+                            </div>
                         </div>
                         <div className="p-2 pt-4 ml-4 flex flex-row items-center">
                             <FontAwesomeIcon icon={['fa', 'phone']} size="2x" className="mt-2 mr-1" />
@@ -137,7 +158,7 @@ class CallToAction extends React.Component {
                                     (519) 318-9319
                                 </p>
                                 <p className="pl-10">
-                                
+
                                 </p>
                             </div>
                         </div>
@@ -169,7 +190,13 @@ class CallToAction extends React.Component {
                         </form>
                     </div>
                 </div>
-            </section >
+                <script type="text/javascript"
+                    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+                </script>
+                <script type="text/javascript">
+                    emailjs.init('user_c0wgstTGpI0ijaURsxQJf')
+                </script>
+            </section>
         );
     }
 };
