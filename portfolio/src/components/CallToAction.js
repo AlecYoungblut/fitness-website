@@ -81,7 +81,7 @@ class CallToAction extends React.Component {
                     {/* left side */}
                     <div className="m-auto mx-5 py-5 my-5 px-10 rounded-lg block lg:hidden">
                         <h1 className="pt-2 pl-2 text-4xl font-medium">Contact Us</h1>
-                        <div className="p-2 pt-4 ml-4 flex flex-row items-center">
+                        <div className="p-2 pt-4 ml-4 flex flex-row items-center hover:font-bold">
                             <FontAwesomeIcon icon={['fa', 'map-marker']} size="2x" className="mt-2 ml-1" />
                             <div className="text-lg">
                                 <p className="pl-12">
@@ -92,22 +92,26 @@ class CallToAction extends React.Component {
                                 </p>
                             </div>
                         </div>
-                        <div className="p-2 pt-4 ml-4 flex flex-row items-center">
+                        <div className="p-2 pt-4 ml-4 flex flex-row items-center hover:font-bold">
                             <FontAwesomeIcon icon={['fa', 'phone']} size="2x" className="mt-2 mr-1" />
                             <div className="text-lg">
                                 <p className="pl-10">
-                                    (519) 318-9319
+                                    <a href="https://api.whatsapp.com/send?phone=15193189319&app=facebook&entry_point=page_cta">
+                                        (519) 318-9319
+                                    </a>
                                 </p>
                                 <p className="pl-10">
 
                                 </p>
                             </div>
                         </div>
-                        <div className="p-2 pt-4 ml-4 flex flex-row items-center">
+                        <div className="p-2 pt-4 ml-4 flex flex-row items-center hover:font-bold">
                             <FontAwesomeIcon icon={['fa', 'envelope-square']} size="2x" className="mr-2" />
                             <div className="text-lg">
                                 <p className="pl-10">
-                                    visift@visfit.visfit
+                                    <a href="mailto:visift@visfit.visfit?subject=Request%20Callback">
+                                        visift@visfit.visfit
+                                    </a>
                                 </p>
 
                             </div>
@@ -151,22 +155,26 @@ class CallToAction extends React.Component {
                                 </p>
                             </div>
                         </div>
-                        <div className="p-2 pt-4 ml-4 flex flex-row items-center">
+                        <div className="p-2 pt-4 ml-4 flex flex-row items-center hover:font-bold">
                             <FontAwesomeIcon icon={['fa', 'phone']} size="2x" className="mt-2 mr-1" />
                             <div className="text-lg">
                                 <p className="pl-10">
-                                    (519) 318-9319
+                                    <a href="https://api.whatsapp.com/send?phone=15193189319&app=facebook&entry_point=page_cta">
+                                        (519) 318-9319
+                                    </a>
                                 </p>
                                 <p className="pl-10">
 
                                 </p>
                             </div>
                         </div>
-                        <div className="p-2 pt-4 ml-4 flex flex-row items-center">
+                        <div className="p-2 pt-4 ml-4 flex flex-row items-center hover:font-bold">
                             <FontAwesomeIcon icon={['fa', 'envelope-square']} size="2x" className="mr-2" />
                             <div className="text-lg">
                                 <p className="pl-10">
-                                    visift@visfit.visfit
+                                    <a href="mailto:visift@visfit.visfit?subject=Request%20Callback">
+                                        visift@visfit.visfit
+                                    </a>
                                 </p>
                             </div>
                         </div>
