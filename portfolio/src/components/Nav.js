@@ -42,7 +42,7 @@ class Nav extends React.Component {
                                 <div className="rounded-md bg-white shadow-xs">
                                     <div className="py-1" aria-orientation="vertical" aria-labelledby="options-menu">
                                         <a href="#ServicesSm" className="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900" >Services</a>
-                                        <a href="#AboutUsSm" className="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900" >About Us</a>
+                                        <a href="#AboutUsSm" className="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900" >Coaches</a>
                                         <a href="#TestimonialsSm" className="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900" >Testimonials</a>
                                     </div>
                                 </div>
@@ -52,7 +52,7 @@ class Nav extends React.Component {
                     <div className="hidden lg:block">
                         <ul className="rounded-xl text-2xl inline-flex bg-teal-400 p-4">
                             <a className="px-4 hover:font-bold text-white" href="#ServicesLg"><li>Services</li></a>
-                            <a className="px-4 hover:font-bold text-white m" href="#AboutUsLg"><li>About Us</li></a>
+                            <a className="px-4 hover:font-bold text-white m" href="#AboutUsLg"><li>Coaches</li></a>
                             <a className="px-4 hover:font-bold text-white" href="#TestimonialsLg"><li>Testimonials</li></a>                            
                         </ul>
                     </div>
