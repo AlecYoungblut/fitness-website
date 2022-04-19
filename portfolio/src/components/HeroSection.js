@@ -13,9 +13,11 @@ class HeroSection extends React.Component {
                             <h3 className="text-1xl mb-8 text-gray-200">
                                 is a private studio space for clients to come and improve their health through exercise, rehabilitation and mobility. Our expert coaches provide individualized programming and counselling based on the clients needs and goals. Suited for all ages, and levels of fitness.
                             </h3>
-                            <button className="bg-white font-bold rounded-full py-3 px-6 shadow-lg uppercase tracking-wider text-base">
-                                Contact Us
-                            </button>
+                            <a href="#ContactSm">
+                                <button className="bg-white font-bold rounded-full py-3 px-6 shadow-lg uppercase tracking-wider text-base"href="#ContactSm">
+                                    Contact Us
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -28,9 +30,11 @@ class HeroSection extends React.Component {
                             <h3 className="text-2xl mb-8 ml-4 text-gray-200">
                                 is a private studio space for clients to come and improve their health through exercise, rehabilitation and mobility. Our expert coaches provide individualized programming and counselling based on the clients needs and goals. Suited for all ages, and levels of fitness.
                             </h3>
-                            <button className="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider text-xl">
-                                Contact Us
-                            </button>
+                            <a href="#ContactLg">
+                                <button className="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider text-xl">
+                                    Contact Us
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>

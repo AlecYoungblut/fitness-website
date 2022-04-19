@@ -22,10 +22,10 @@ class Nav extends React.Component {
     render() {
         return (
             <section className="rounded-xl mx-auto w-4/5 mb-24 h-40">
-                <div className="lg:pl-6 pl-20 pr-6 pt-4 flex items-center justify-between">
+                <div className="lg:pl-6 pr-6 pt-4 flex items-center justify-between">
 
                     <div className="">
-                        <img className="rounded-full h-48 w-48" src={visfitlogo} alt="VISFIT Personal Training" />
+                        <img className="rounded-full h-32 w-32 lg:h-48 lg:w-48" src={visfitlogo} alt="VISFIT Personal Training" />
                     </div>
 
                     <div className="block lg:hidden" onMouseLeave={() => this.setState({ navClosed: true })}>
@@ -41,9 +41,9 @@ class Nav extends React.Component {
                             <div className="origin-top-right absolute right-0 pt-2 w-56 rounded-md shadow-lg" hidden={(this.state.navClosed)}>
                                 <div className="rounded-md bg-white shadow-xs">
                                     <div className="py-1" aria-orientation="vertical" aria-labelledby="options-menu">
-                                        <a className="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900" >About</a>
-                                        <a href="#Testimonials" className="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900" >Testimonials</a>
-                                        <a href="#AboutUs" className="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900" >Contact Me</a>
+                                        <a href="#ServicesSm" className="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900" >Services</a>
+                                        <a href="#AboutUsSm" className="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900" >About Us</a>
+                                        <a href="#TestimonialsSm" className="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900" >Testimonials</a>
                                     </div>
                                 </div>
                             </div>
@@ -51,9 +51,9 @@ class Nav extends React.Component {
                     </div>
                     <div className="hidden lg:block">
                         <ul className="rounded-xl text-2xl inline-flex bg-teal-400 p-4">
-                            <li><a id="1" className="px-4 hover:font-bold text-white">Services</a></li>
-                            <li><a id="2" className="px-4 hover:font-bold text-white">Testimonials</a></li>
-                            <li><a id="3" className="px-4 hover:font-bold text-white m">About Us</a></li>
+                            <a className="px-4 hover:font-bold text-white" href="#ServicesLg"><li>Services</li></a>
+                            <a className="px-4 hover:font-bold text-white m" href="#AboutUsLg"><li>About Us</li></a>
+                            <a className="px-4 hover:font-bold text-white" href="#TestimonialsLg"><li>Testimonials</li></a>                            
                         </ul>
                     </div>
                 </div>
