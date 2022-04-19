@@ -46,10 +46,8 @@ class CallToAction extends React.Component {
             email: `${this.state.email}`
         };
 
-        alert('sending mail!');
-
         emailjs.send(serviceID, templateID, templateParams, publicKey).then(() => {
-            alert('Sent!');
+            alert('The submission was successful! Someone will contact you at first availability');
         }, (err) => {
             alert(JSON.stringify(err));
         });
