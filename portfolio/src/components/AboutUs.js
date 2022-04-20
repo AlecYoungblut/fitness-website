@@ -18,11 +18,11 @@ class AboutUs extends React.Component {
                         <div className="w-full md:w-1/2 pl-0 md:pl-10 ">
                             <h4 className="text-4xl text-gray-800 font-bold mb-3">Meet Mitch!</h4>
                             <p className="text-2xl text-gray-600 mb-8">
-                                He has been in a certified personal trainer for over 4 years! Mitch uses his background in sports to create functional plans for his clients. 
-                                He is a level 1 Precision Nutrition Coach and will also help you with all your nutrition needs/struggles. 
+                                He has been in a certified personal trainer for over 4 years! Mitch uses his background in sports to create functional plans for his clients.
+                                He is a level 1 Precision Nutrition Coach and will also help you with all your nutrition needs/struggles.
                                 Mitch believes in small, gradual changes to create a plan that works for you!
-                                <br/>
-                                <br/>
+                                <br />
+                                <br />
                                 Certifications:
                                 <ul className="list-disc pl-10">
                                     <li>CPTN - Certified Personal Trainer</li>
@@ -40,12 +40,12 @@ class AboutUs extends React.Component {
                         <div className="w-full md:w-1/2 pl-0 md:pl-10 ">
                             <h4 className="text-4xl text-gray-800 font-bold mb-3 pt-5">Meet Maisha!</h4>
                             <p className="text-2xl text-gray-600 mb-8 ">
-                                Maisha has been a certified personal trainer for over 10 years! She uses her extensive experience to address any pain, imbalance, goal you may have! 
-                                She believes in a balanced lifestyle approach to fitness to get you to your goals efficiently, and to last a lifetime! 
-                                She is a certified Fascial Stretch Therapy Practitioner, this allows her to work with clients with injuries/aches/ pain! 
+                                Maisha has been a certified personal trainer for over 10 years! She uses her extensive experience to address any pain, imbalance, goal you may have!
+                                She believes in a balanced lifestyle approach to fitness to get you to your goals efficiently, and to last a lifetime!
+                                She is a certified Fascial Stretch Therapy Practitioner, this allows her to work with clients with injuries/aches/ pain!
                                 Whether your goal is weight loss, muscle gain, pre/post-natal, reducing pain/stiffness, Maisha is experienced at it all!
-                                <br/>
-                                <br/>
+                                <br />
+                                <br />
                                 Certifications:
                                 <ul className="list-disc pl-10">
                                     <li>CPTN - Certified Personal Trainer</li>

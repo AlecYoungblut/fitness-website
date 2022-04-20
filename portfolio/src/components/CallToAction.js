@@ -67,7 +67,7 @@ class CallToAction extends React.Component {
     }
     render() {
         return (
-            <section className="bg-gray-300 mx-auto w-4/5 rounded-xl lg:pb-10 pt-10 mb-24" id="Lorem_Contact">
+            <section className="bg-gray-300 mx-auto w-4/5 rounded-xl lg:pb-10 lg:pt-10 mb-24" id="Lorem_Contact">
                 {
                     /* 
                     <div className="container mx-auto px-6 text-center py-16">
