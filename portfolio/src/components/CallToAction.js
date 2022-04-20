@@ -107,8 +107,8 @@ class CallToAction extends React.Component {
                             <FontAwesomeIcon icon={['fa', 'envelope-square']} size="2x" className="mr-2" />
                             <div className="text-lg">
                                 <p className="pl-10">
-                                    <a href="mailto:visift@visfit.visfit?subject=Request%20Callback">
-                                        visift@visfit.visfit
+                                    <a href="mailto:visfitinfo@gmail.com?subject=Request%20Callback">
+                                        visfitinfo@gmail.com
                                     </a>
                                 </p>
 
@@ -170,8 +170,8 @@ class CallToAction extends React.Component {
                             <FontAwesomeIcon icon={['fa', 'envelope-square']} size="2x" className="mr-2" />
                             <div className="text-lg">
                                 <p className="pl-10">
-                                    <a href="mailto:visift@visfit.visfit?subject=Request%20Callback">
-                                        visift@visfit.visfit
+                                    <a href="mailto:visfitinfo@gmail.com?subject=Request%20Callback">
+                                        visfitinfo@gmail.com
                                     </a>
                                 </p>
                             </div>

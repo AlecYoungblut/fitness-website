@@ -53,7 +53,7 @@ class Features extends React.Component {
 
                     <div className="flex items-center flex-wrap pt-2">
                         <div className="w-full md:w-1/2 pl-0 md:pl-10 pb-2">
-                            <h4 className="text-2l text-gray-800 font-bold mb-3">Fascial Stretch Therapy</h4>
+                            <h4 className="text-2xl text-gray-800 font-bold mb-3">Fascial Stretch Therapy</h4>
                             <p className="text-gray-600 mb-8 text-lg">
                                 Fascial Stretch Therapy [FST] is a pain-free, table based assisted stretching, focusing on the fascia and joint capsules as the key element to achieving optimal flexibility and pain relief. Members of all ages can benefit from FST, and will see and feel improvement as early as the first treatment!
                                 The benefits of FST include:

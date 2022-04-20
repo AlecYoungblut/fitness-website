@@ -3,12 +3,12 @@ import React from "react";
 class HeroSection extends React.Component {
     render() {
         return (
-            <section className="bg-gray-600 rounded-xl mx-auto w-4/5 mb-24">
+            <section className="bg-gray-600 rounded-xl mx-auto w-4/5 mb-24 text-center">
                 <div className="block lg:hidden nb mx-auto my-10">
                     <div className="container mx-auto py-6 px-8 ">
                         <div className="container mx-auto px-6">
                             <h2 className="text-3xl font-bold mb-2 text-white">
-                                VISFIT Personal Training
+                                VIS FIT Personal Training
                             </h2>
                             <h3 className="text-1xl mb-8 text-gray-200">
                                 is a private studio space for clients to come and improve their health through exercise, rehabilitation and mobility. Our expert coaches provide individualized programming and counselling based on the clients needs and goals. Suited for all ages, and levels of fitness.
@@ -25,7 +25,7 @@ class HeroSection extends React.Component {
                     <div className="mx-auto">
                         <div className="mx-auto px-6 py-6 bg-gray-600 rounded-xl ">
                             <h2 className="text-6xl font-bold mb-2 text-white">
-                                VISFIT Personal Training
+                                VIS FIT Personal Training
                             </h2>
                             <h3 className="text-2xl mb-8 ml-4 text-gray-200">
                                 is a private studio space for clients to come and improve their health through exercise, rehabilitation and mobility. Our expert coaches provide individualized programming and counselling based on the clients needs and goals. Suited for all ages, and levels of fitness.
