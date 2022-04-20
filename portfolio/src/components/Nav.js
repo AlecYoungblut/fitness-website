@@ -50,10 +50,10 @@ class Nav extends React.Component {
                         </div>
                     </div>
                     <div className="hidden lg:block">
-                        <ul className="rounded-xl text-3xl inline-flex p-4" style={{ backgroundColor: "rgba(38, 210, 198, 1)" }}>
-                            <a className="px-4 hover:font-bold text-white" href="#ServicesLg"><li>Services</li></a>
-                            <a className="px-4 hover:font-bold text-white" href="#AboutUsLg"><li>Coaches</li></a>
-                            <a className="px-4 hover:font-bold text-white" href="#TestimonialsLg"><li>Testimonials</li></a>
+                        <ul className="rounded-xl text-3xl inline-flex pb-6 pr-4" style={{ backgroundColor: "rgba(38, 210, 198, 1)" }}>
+                            <a className="px-2 hover:font-bold text-white" href="#ServicesLg"><li>Services</li></a>
+                            <a className="px-2 hover:font-bold text-white" href="#AboutUsLg"><li>Coaches</li></a>
+                            <a className="px-2 hover:font-bold text-white" href="#TestimonialsLg"><li>Testimonials</li></a>
                         </ul>
                     </div>
                 </div>
