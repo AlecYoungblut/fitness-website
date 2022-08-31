@@ -1,7 +1,7 @@
 import React from "react";
 import mitch from './imgs/mitch.jpg';
 import maisha from './imgs/maisha.jpg';
-
+import ron from './imgs/ron.jpg';
 
 class AboutUs extends React.Component {
     render() {
@@ -55,6 +55,29 @@ class AboutUs extends React.Component {
                                     <li>Fitness Kickboxing - FKCI Level 1</li>
                                     <li>Adaptive Fitness Specialist </li>
                                     <li>TRX Suspension Training Specialist</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div className="flex items-center flex-wrap pt-5">
+                        <div className="w-full md:w-1/2">
+                            <img className="rounded-lg" src={ron} alt="Lorem" />
+                        </div>
+                        <div className="w-full md:w-1/2 pl-0 md:pl-10 ">
+                            <h4 className="text-4xl text-gray-800 font-bold mb-3 pt-5">Meet Ron!</h4>
+                            <p className="text-2xl text-gray-600 mb-8 ">
+                                Ron has over 20 years experience in the fitness and health industry.
+                                A former GoodLife coach turned online coach, he’s helped countless clients reach their goals!
+                                He believes in a balanced approach using small gradual changes!
+                                <br />
+                                <br />
+                                Certifications:
+                                <ul className="list-disc pl-10">
+                                    <li>ISSA Certified Personal Trainer</li>
+                                    <li>Precision Nutrition Level 1</li>
+                                    <li>OTA Level 1</li>
+                                    <li>Pre and Post Natal Coach</li>
+                                    <li>Weight Management Specialist</li>
                                 </ul>
                             </p>
                         </div>
