@@ -59,35 +59,6 @@ class AboutUs extends React.Component {
                             </p>
                         </div>
                     </div>
-                    <div className="flex items-center flex-wrap pt-5">
-                        <div className="w-full md:w-1/2">
-                            <img className="rounded-lg" src={nate} alt="Lorem" />
-                        </div>
-                        <div className="w-full md:w-1/2 pl-0 md:pl-10 ">
-                            <h4 className="text-4xl text-gray-800 font-bold mb-3 pt-5">Meet Nate!</h4>
-                            <p className="text-2xl text-gray-600 mb-8 ">
-                                After ending my sports career as a 18 year old boy. I felt lost, confused and without direction. This is where my fitness journey began.
-                                Going to the gym is one of the best investments I’ve ever made. Fitness gave me the blueprint of self improvement.
-                                Learning valuable lessons, Empowering me to become a more confident human being on top of all the physical benefits.
-                                My passion in life is to lead a team of strong minded people who are obsessed with the process of investing in themselves.
-                                Helping them stay accountable in empowering themselves to take action day by day to achieve there highest potential.
-                                With there fitness and in life.
-                                <br />
-                                <br />
-                                Certifications:
-                                <ul className="list-disc pl-10">
-                                    <li>Fitness & Health Promotion Diploma - Fanshawe College</li>
-                                    <li>NSCA-Certified Personal Trainer</li>
-                                    <li>Exercise Therapy Level One</li>
-                                    <li>Can-Fit Pro Personal Training Specialist</li>
-                                    <li>St. Clair College Athletics Department-Assistant Athletic Trainer</li>
-                                    <li>Edge Baseball Camp Instructor</li>
-                                    <li>First Responder Certified</li>
-                                    <li>CPR/First Aid/AED Certified</li>
-                                </ul>
-                            </p>
-                        </div>
-                    </div>
                 </section>
             </section>
         );
