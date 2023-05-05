@@ -1,7 +1,7 @@
 ## About
 DResponsive React single-page-application (SPA) with Tailwind for a friend's upcoming solo fitness career. This mockup was used for the final website, found [here](https://visfit.ca/).
 
-Click the gif below slowed down version:
+## Demos
 * https://j.gifs.com/QnP9QL.gif
 * https://youtu.be/feU7wKaeQDY
 
