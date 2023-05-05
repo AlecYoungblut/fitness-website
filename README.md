@@ -1,7 +1,5 @@
 ## About
-Responsive React single-page-application (SPA) with Tailwind for a friend's upcoming solo fitness career. The pandemic has currently restricted client access and as such there are still placeholders for text and images.
-
-[Live version can be found here](https://visfit.ca/)
+DResponsive React single-page-application (SPA) with Tailwind for a friend's upcoming solo fitness career. This mockup was used for the final website, found [here](https://visfit.ca/).
 
 Click the gif below slowed down version:
 
