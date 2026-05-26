@@ -32,7 +32,7 @@ class Testimonials extends React.Component {
                         <div className="w-full md:w-1/3 px-2 mb-4">
                             <div className="bg-white rounded shadow py-2">
                                 <p className="text-gray-800 text-base px-6 mb-5">
-                                    Mitch & Maisha are both knowledgeable personal trainers who sincerely care about their client's success. Couldn't recommended them more!
+                                    Maisha is a knowledgeable personal trainer who sincerely cares about her client's success. Couldn't recommended her more!
                                 </p>
                                 <p className="text-gray-500 text-xs md:text-sm px-6">
                                     Nick
