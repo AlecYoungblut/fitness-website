@@ -10,30 +10,8 @@ class AboutUs extends React.Component {
                 <section className="container mx-auto px-6 p-5" >
                     <h2 className="text-5xl font-bold text-center text-gray-800 mb-8">
                         Our Coaches
-                    </h2>
+                    </h2>                    
                     <div className="flex items-center flex-wrap">
-                        <div className="w-full md:w-1/2">
-                            <img className="rounded-lg" src={mitch} alt="Lorem" />
-                        </div>
-                        <div className="w-full md:w-1/2 pl-0 md:pl-10 ">
-                            <h4 className="text-4xl text-gray-800 font-bold mb-3">Meet Mitch!</h4>
-                            <p className="text-2xl text-gray-600 mb-8">
-                                He has been in a certified personal trainer for over 8 years! Mitch uses his background in sports to create functional plans for his clients.
-                                He is a level 1 Precision Nutrition Coach and will also help you with all your nutrition needs/struggles.
-                                Mitch believes in small, gradual changes to create a plan that works for you!
-                                <br />
-                                <br />
-                                Certifications:
-                                <ul className="list-disc pl-10">
-                                    <li>CPTN - Certified Personal Trainer</li>
-                                    <li>Precision Nutrition Level 1</li>
-                                    <li>Kettlebell Specialist - DTS</li>
-                                    <li>Body Weight Movement - YTS</li>
-                                </ul>
-                            </p>
-                        </div>
-                    </div>
-                    <div className="flex items-center flex-wrap pt-5">
                         <div className="w-full md:w-1/2">
                             <img className="rounded-lg" src={maisha} alt="Lorem" />
                         </div>
